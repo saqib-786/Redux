@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg{
+    height: 45vw;
+    background-image: url('/Assests/Background.jpg');
+    background-size: 100%,100%;
+    background-color: rgb(57, 55, 55);
+    background-blend-mode:soft-light ;
+}
+
+#wallet{
+    position: absolute;
+    width: 50%;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 0 10px 2px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(-135deg, blue,deeppink);
+    
+}
+
+
+.bg_header{
+    height: 48vw;
+    background-image: url('../../Assests/bg.png');
+    background-size: 100% 100%;
+    background-color: rgb(65, 58, 58);
+    background-blend-mode: soft-light;
+    border-bottom: 8px solid #222222;
+    
+}
+.sigin{
+    background-color: #E50915 !important;
+    height: 1.9em;
+    width: 4em;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-right: 2em;
+    
+}
+.heading{
+    font-size: 3em;
+}
+.get_started{
+background-color: #E50915 !important;
+border-radius: 0px !important;
+width: 10em;
+}
+.email{
+    border-radius: 0% !important;
+    border: none;
+    outline: none;
+}
+.input-container{
+    height: 4em;
+}
+.bg_dark{
+    background-color: black !important;
+    min-height: 25em;
+    border-bottom: 8px solid #222222;
+}
+#tv{
+    width: 400px;
+    
+    position: absolute;
+    right: 10%;
+    top: 102%;
+    
+}
+#video{
+    width: 310px;
+    
+   
+}
+.add_btn{
+    outline: none;
+}
+/* .add_btn:hover{
+transform: rotate(50deg);
+} */
+.hidden{
+    display: none;
+}
+.show_container{
+    display: block;
+    background-color: #6C757D;
+    margin-top: 5px;
+    width: 75%;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.list{
+    list-style: none;
+    margin-right: 10px;
+    
+}
+.list>li{
+    margin-top: 5px;
+    font-size: 0.8em;
+
+    
+}
+@media only screen and (max-width:768px){
+   [class*='col-']{
+       width: 100%;
+   }
+   .bg_header{
+       height: 100vw;
+       width: 100vw;
+       background-size: 100% 100%;
+   }
+}
+
+@media only screen and (max-width:560px){
+    
+    .bg_header{
+        height: 80vw;
+        width: 100vw;
+        background-size: 100% 100%;
+    }
+
+   
+ }
+
+ @media only screen and (max-width:412px){
+    
+    .bg_header{
+        height: 80vw;
+        width: 100vw;
+        background-size: 100% 100%;
+    }
+ }
